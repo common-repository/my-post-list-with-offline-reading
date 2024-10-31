@@ -1,0 +1,195 @@
+a.add-to-post-list {
+    background: url("img/star.png") no-repeat scroll center 20px transparent;
+    display: block;
+    float: right;
+    padding-bottom: 52px;
+    position: relative;
+}
+	
+#close-your-list:hover{cursor:pointer}
+#close-your-list {background:url("img/close.png") no-repeat scroll right top transparent; top:10px;width:60px;position:absolute;right:10px;height:40px;}
+ 
+#your-posts-list-container h2 {margin:0 0 4px 0;}
+#your-posts-list-container #your-posts-list {height:240px; overflow-y:scroll;margin:20px 0;background: #fff; padding: 3px 2px;}
+ 
+#your-posts-list-container {font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Verdana, Tahoma, sans-serif;z-index:9999;border:3px solid #fff;position:fixed;bottom:10px;right:20px;width:330px;padding:10px; background:#eee;font-size:12px;display:none}
+#your-posts-list-container #your-posts-list a {text-decoration:none;display:block;margin:0 0 4px 0; font-size:14px;border-bottom:1px solid #fff;padding:0 5px 4px !important;border-bottom: 1px solid #ccc;}
+
+#view-your-list:hover {cursor:pointer}
+ 
+ 
+#view-your-list {
+	background-color:#fff !important;
+	background: url("img/star.png") no-repeat scroll left 0px transparent;
+	display: block;
+	font-size: 12px;
+	padding:10px 10px 10px 32px;
+	position: fixed;
+	right: 0px;
+	text-align: left;
+	bottom: 0px;
+	z-index:9990099;
+	display:none;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Verdana, Tahoma, sans-serif;
+	}
+	
+ 
+
+ 
+#close-send-email-list-div {float: right; text-decoration: none; font-size: 30px;margin-right: 10px;background:url("img/close.png") no-repeat scroll right top transparent; top:10px;width:60px;position:absolute;right:10px;height:40px;}
+#send-email-list-div-opaque-layer {z-index: 99999;background: #000;opacity: 0.9;width: 100%;height: 100%;position: fixed;top: 0;left: 0;display: none}
+#send-email-list-div {
+     margin-top: -200px;
+  margin-left: -260px;
+z-index: 999999;    background: #efefef; display: none;position: fixed;top:40%;left:45%;width:550px;padding:30px  10px;font-size:14px;z-index: 9999999;border: 4px solid #a7a7a7;}
+#send-email-list-div input {margin-bottom: 20px;width:300px;font-size: 22px;}
+#send-email-list-div textarea {margin-bottom: 20px;width:300px;font-size: 18px;}
+#trigger-list-send-to-email
+{
+background-attachment:scroll;
+  background-color:#F72F27;
+  background-image:none;
+  background-position:0 0;
+  background-repeat:repeat repeat;
+  border:1px solid #FF4545;
+  border-bottom-left-radius:2px;
+  border-bottom-right-radius:2px;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  box-shadow:#BBBBBB 0 0 5px;
+  color:#FFFFFF;
+  float:right;
+  font-size:24px;
+  margin-right:10px;
+  padding:12px 26px !important;
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+ 
+
+#mpl-read-more{margin-left:10px;text-decoration:none !important;font-weight:normal;font-size:9px;}
+
+#empty-your-list,#mpl-about-list {
+    font-size: 9px;margin-right: 20px;
+    display: inline-block
+}
+#mpl-actions-container {position: absolute;top: 20px;left: 50%;}
+
+#mpl-actions-container a {text-decoration: none}
+
+.mpl-send-label{   color: #666666;
+    display: block;
+    font-size: 18px;}
+
+.mpl-dl-label {font-size:11px;margin-top:5px;text-align:right}
+
+
+#mpl-help {display:none;margin:10px 0 20px;font-size:10px;line-height:13px;}
+
+#mpl-close-help {float:right}
+
+#mpl-email-list-action-result {padding: 10px; font-size: 24px; color: red}
+#mpl-about-list-div i { font-size: 10px; font-style: italic;  margin: 10px 0;  }
+#mpl-about-list-div {display: none;font-size: 14px;line-height: 22px;margin: 30px 0;    
+
+    border: 1px solid #FF4545;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 5px #BBBBBB;
+    
+    float: right;
+  
+    padding: 4px 6px !important;
+    text-align: left;
+    text-decoration: none;
+    margin-right:10px;
+    
+    
+ 
+    border-color: #dddddd;
+    border-top-color: #dddddd;
+    border-bottom-color: #dddddd;
+    border-left-color: #dddddd;
+    border-right-color: #dddddd;
+    font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+   
+    letter-spacing: 1px;
+   
+    margin-top: 16px;
+    line-height: 18px;
+    }
+#mpl-about-list-div i a {color: #333;}
+
+#mpl-close-about:hover {background: #ff3269;    transition: .5s;}
+#mpl-close-about {
+    color: #000000;
+ display: block;
+    text-align: center;  text-decoration: none;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+ background: #c6c6c6;margin: 10px 0;padding: 3px 10px;
+ 
+    } 
+
+#mpl-actions-container a {
+    background-color: #cccbca;
+    color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fafffc;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+    } 
+
+.mpl-list-action-trigger {     
+    border: 1px solid #FF4545;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #BBBBBB;
+    color: #FFFFFF;
+    float: right;
+    width:260px;
+    padding: 12px 26px !important;
+    text-align: center;
+    text-decoration: none;
+    margin-right:10px;
+    
+    text-transform: uppercase;
+    background-color: #0090ff;
+    border-color: #dddddd;
+    border-top-color: #dddddd;
+    border-bottom-color: #dddddd;
+    border-left-color: #dddddd;
+    border-right-color: #dddddd;
+    font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    letter-spacing: 1px;
+ 
+ 
+    display: block;
+    margin-top: 16px;
+    line-height: 15px;
+    } 
+ #mpl-send-h2 {
+    font-size: 25px;color: #848484;
+    font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Verdana, Tahoma, sans-serif;
+    letter-spacing: -2px;margin-bottom: 30px;display: block;margin-top:-10px;
+    } 
+
+#your-posts-list-container h2 {
+    font-size: 35px;color: #848484;
+    font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Verdana, Tahoma, sans-serif;
+    letter-spacing: -2px;
+    } 
+
+.mpl-list-action-trigger:hover {
+    background-color: #e42f61;color: #fff;    transition: .5s;
+    } 
+
+#trigger-list-send-to-email:hover {    background-color: #0090ff;color: #fff;  border:1px solid #fff;  transition: .5s;}
+
+    

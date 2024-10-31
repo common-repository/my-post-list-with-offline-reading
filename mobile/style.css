@@ -1,0 +1,252 @@
+body {font-family:Arial;padding:0;margin:0;}
+
+.full-online-article {
+	
+	display: block;
+    font-size: 0.7em;
+   text-align:center;
+   margin:20px 0 60px;border-bottom:1px solid #ccc;padding-bottom:40px;
+    width: 100%;
+	
+}
+
+
+
+header {
+	background: #fceabb; /* Old browsers */
+background: -moz-linear-gradient(top,  #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fceabb), color-stop(50%,#fccd4d), color-stop(51%,#f8b500), color-stop(100%,#fbdf93)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 ); /* IE6-9 */
+
+}
+
+header {text-align:center;padding-bottom:130px;padding-top:33px;}
+header h1 {font-size:3.8em;margin:0;padding:10px 5px}
+header h2 {font-size:2.1em;padding:13px 5px;margin:0}
+header h1 a { text-decoration:none; color:#8D0003}
+header h2 a { text-decoration:none;color:#333;}
+
+.ltsp {
+    left: 100px;
+    position: absolute;
+}
+
+.post-index ul li a {text-shadow: 0 0 0.3em #fff;text-decoration:none; background:#efefef;padding:3px 8px; color:#DA4B2E; }
+
+.post-index ul li {
+font-weight:bold;left:0;right:0;
+border-bottom: 1px solid #ccc;
+font-size: 1.2em;
+padding: 20px  0 !important;
+margin:0 0 0 10px;
+clear:both
+ }
+ 
+	 
+.post-index ul {
+list-style-type:none;
+list-style-position:outside;
+padding:0;
+margin: 0 0 80px;
+width:100%;}
+
+
+
+.post-index {padding:5px 0;background:#efefef;}
+.pdf-prepost {min-height:400px;width:100%;background:#efefef;padding:0;margin:0;display:block;color:#fff}
+
+
+#pdf-dl a {display:block;clear:both;font-size:40px;margin:100px auto;text-decoration:none !important;text-align:center; color:#333;background:#eee;padding:20px; }
+#bottom-area {border-top:2px solid #ccc; width:100%;position:fixed;bottom:0;padding:0;background:#333;font-size:1.3em;text-align:center;}
+.bottom-button-area {padding:0;margin:0;
+}
+.bottom-button-area a {text-shadow: 0 0 0.05em #EAEBD9;margin:0;float:left;width:33%;text-decoration:none;color:#33B8CC;text-transform:uppercase;padding:12px 0;display:block; }
+
+#about {margin-bottom:1000px;}
+#about  h2 {text-align:center;padding:8px;}
+.post h2 {padding:5px 0 0 10px;}
+ 
+
+.post-content {padding:0 10px 30px 10px;}
+.post img.featimage {width:100%;margin:0;padding:0}
+
+#link-nav-linear {width:100%;padding:0px 0;margin:0;background:#333;display:inline-block}
+
+#link-nav-linear .navlink {width:20%; padding:20px 0 0 0;margin:0;float:left;text-align:center;color:#fff;font-size:3.0em;text-decoration:none;display:block}
+#link-nav-linear h2 {width:60%;padding:20px 0;margin:0;float:left;text-align:center;color:#fff;font-size:1.3em;text-decoration:none;display:block}
+#link-nav-linear h2 a { font-size:1.1em;text-decoration:none;color:#fff;}
+
+/**
+*
+* Main container
+*
+*/
+#addToHomeScreen {
+z-index:9999;
+-webkit-user-select:none;
+user-select:none;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+-webkit-touch-callout:none;
+touch-callout:none;
+width:240px;
+font-size:25px;
+padding:12px 14px;
+text-align:left;
+font-family:helvetica;
+background-image:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#fff),color-stop(0.02,#eee),color-stop(0.98,#ccc),color-stop(1,#a3a3a3));
+border:1px solid #505050;
+-webkit-border-radius:8px;
+-webkit-background-clip:padding-box;
+color:#333;
+text-shadow:0 1px 0 rgba(255,255,255,0.75);
+line-height:130%;
+-webkit-box-shadow:0 0 4px rgba(0,0,0,0.5);
+}
+
+#addToHomeScreen.addToHomeIpad {
+width:268px;
+font-size:18px;
+padding:14px;
+}
+
+/**
+*
+* The 'wide' class is added when the popup contains the touch icon
+*
+*/
+#addToHomeScreen.addToHomeWide {
+width:296px;
+}
+
+#addToHomeScreen.addToHomeIpad.addToHomeWide {
+width:320px;
+font-size:18px;
+padding:14px;
+}
+
+/**
+*
+* The balloon arrow
+*
+*/
+#addToHomeScreen .addToHomeArrow {
+position:absolute;
+background-image:-webkit-gradient(linear,0 0,100% 100%,color-stop(0,rgba(204,204,204,0)),color-stop(0.4,rgba(204,204,204,0)),color-stop(0.4,#ccc));
+border-width:0 1px 1px 0;
+border-style:solid;
+border-color:#505050;
+width:16px; height:16px;
+-webkit-transform:rotateZ(45deg);
+bottom:-9px; left:50%;
+margin-left:-8px;
+-webkit-box-shadow:inset -1px -1px 0 #a9a9a9;
+-webkit-border-bottom-right-radius:2px;
+}
+
+
+/**
+*
+* The balloon arrow for iPad
+*
+*/
+#addToHomeScreen.addToHomeIpad .addToHomeArrow {
+-webkit-transform:rotateZ(-135deg);
+background-image:-webkit-gradient(linear,0 0,100% 100%,color-stop(0,rgba(238,238,238,0)),color-stop(0.4,rgba(238,238,238,0)),color-stop(0.4,#eee));
+-webkit-box-shadow:inset -1px -1px 0 #fff;
+top:-9px; bottom:auto; left:50%;
+}
+
+
+/**
+*
+* Close button
+*
+*/
+#addToHomeScreen .addToHomeClose {
+-webkit-box-sizing:border-box;
+position:absolute;
+right:4px;
+top:4px;
+width:18px;
+height:18px; line-height:14px;
+text-align:center;
+text-indent:1px;
+-webkit-border-radius:9px;
+background:rgba(0,0,0,0.12);
+color:#707070;
+-webkit-box-shadow:0 1px 0 #fff;
+font-size:16px;
+}
+
+
+/**
+*
+* The '+' icon, displayed only on iOS < 4.2
+*
+*/
+#addToHomeScreen .addToHomePlus {
+font-weight:bold;
+font-size:1.3em;
+}
+
+
+/**
+*
+* The 'share' icon, displayed only on iOS >= 4.2
+*
+*/
+#addToHomeScreen .addToHomeShare {
+display:inline-block;
+width:18px;
+height:15px;
+background-repeat:no-repeat;
+background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAPCAQAAABDj1eZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUdJREFUKFNtkLtLw1AYxS/qJLhXVKr2ZRulUNtiqgSb3CziICI6ucTFVYcOnaQOFRwUnNTRwUWXgpP/QdHNUEQUHGxofYBTlRs83iZNjKTncOGe7/vx3QchXUWn6FL3jhfKUdCCr5zuifV5oDiHQM+c+CIhiiCSWNu08iq9oHXKLAiqrgR4UXqlOEYZt++ExEL0wW7+OW0G10muLv9gmqfe5FAWKmTMYQYiFL7PYwyLOD8lSjNh2gdnPzMII4QUBxc4OothbAF7GCBKQ0YbSWyPQsIhqvetS+y0ygGMo/KFZfviDvR4AhwgZU9dGYnA0J/6ndc15i3ouYIMcVVUcEXIoOxCeRCfwP8sXBSdjtpUv/1QW+K16kCCIUC4id9Fa0JtkluwVkSfqPL6RwfSDA0aNlx7k/bWgViB7bMS2/1vk5sdsZLN/ALSuL3tylO4RAAAAABJRU5ErkJggg==);
+background-size:18px 15px;
+text-indent:-9999em;
+overflow:hidden;
+}
+
+
+/**
+*
+* The touch icon (if available)
+*
+*/
+#addToHomeScreen .addToHomeTouchIcon {
+display:block;
+float:left;
+-webkit-border-radius:6px;
+border-radius:6px;
+-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5),
+	inset 0 0 2px rgba(255,255,255,0.9);
+box-shadow:0 1px 3px rgba(0,0,0,0.5),
+	inset 0 0 2px rgba(255,255,255,0.9);
+background-repeat:no-repeat;
+width:57px; height:57px;
+-webkit-background-size:57px 57px;
+background-size:57px 57px;
+margin:0 12px 0 0;
+border:1px solid #333;
+-webkit-background-clip:padding-box;
+background-clip:padding-box;
+}
+
+
+/**
+*
+* The 'share' icon for retina display
+*
+*/
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+#addToHomeScreen .addToHomeShare {
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAeCAQAAADu6HTYAAADPElEQVR4Xq3TX2gcRRzA8e/M7mVv2+TSNpc/TZtrY6jUGqgaSAmEChKLrYK0YH0RFC2CSCkEfCghiKU04J8qNigq6os+iQV98MHWFwVBrQQRWs21lBw5cw3NNb1/udu72RGG5Y77IzXW77D7sAwf5scyYoL6BGXSDKFZwaGpLvIUaeoCkvX1MmsM0Ny6oRSQYOLuIS+YZOpfQdqslpUxcZrzTVAz4qPwW2O3CeIwC/RSzeY6Ow1QhUrkr+YOWfEKDkEP8Rij7CHKJmrFSDHBdwGEE5wiGChPN+PnT8VdRtEIl1d4gRj/1EVe5ZSBKGh8iqQpo/Fo5+3C/gz0MYg4zgwbqday1/Q4B8BGQ45d/Hi54lakCrU5obOcidJpu1+Lg9whjabyaOYLnrIBFFaRD+xe2ybMDWY66GmP/WA9cGfGp0CWhy0wkMN8inepFiH2rV1j0NQSNQbFLRQnS8/8YSDBBpadfv4CYDub2fmeHDNAsL1MBWUel0iA+Xik6eHcyvD3vAMSU1TGuA/YRS+dD7ovCQN43GKRFCU20Kd3V/avDVVyAZ5niTEuLA5/zBGWg9EEEhfJKN200Tat8CmRAQb9+wv7soPlHt2tQorsz1uPbr0HTY4sJwrH47zJZwABBAKLMBoQXepwgTwdHCo+fXMkQ4lrxEmQ5AaXipPqDY9V2vn09tgvTPI71EEGYxM+/uMJLJ4svpgaWGKOi/xKgmqLSUGSUd5f2vIVJ/CgBaTIUsZ7ZBsn0+NzfMOXLFCXQyTcybN6ep5ZZgUOHn7jpfUpsZshdugPGf+E5zjbyHTSRyQ8xfRPPM/s63RHeuknSoT22mjmmnAOIMkUZ6D1xSfPPAfd1WFKM3sO2CMaHx8M1NjnXKHaAGGkOW0C02WeYHUz4qMtx+w5gUDS8NckYe5lHsMYwCZEPyEEmjLDZFmAS7CDviMdxyTkMNVBKEmYLvbiQQBIBBbCQG04bGQvFWz6CfsCQLWCigILFwcfkGYBiOpbYuOizTAyYyDdCtrGaRG1LCkIgMYEFhI0WqQZoSlbGRyHKe4qOx7iv2bVQW9dp4dlM/x6kmwnWQcd/Q3FCqwTEiT5s+6D5v/pb0SSHyg7uhMWAAAAAElFTkSuQmCC);
+}
+}
+
+
+
